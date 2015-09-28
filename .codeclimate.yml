@@ -1,6 +1,28 @@
----
 engines:
-  rubocop:
-    enabled: true
   bundler-audit:
     enabled: true
+  rubocop:
+    enabled: true
+  scss-lint:
+    enabled: true
+  coffeelint:
+    enabled: true
+ratings:
+   paths:
+   - app/**
+   - lib/**
+   - "*.rb"
+   - "*.scss"
+   - "*.coffee"
+exclude_paths:
+- app/assets/images/*
+- config/**/*
+- db/**/*
+- bin/**/*
+- spec/**/*
+- vendor/**/*
+- .*
+- Gemfile*
+- README*
+- Procfile*
+- Rakefile
