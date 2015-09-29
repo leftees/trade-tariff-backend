@@ -1,6 +1,6 @@
 engines:
   rubocop:
-    enabled: true
+    enabled: false
   bundler-audit:
     enabled: true
 ratings:
